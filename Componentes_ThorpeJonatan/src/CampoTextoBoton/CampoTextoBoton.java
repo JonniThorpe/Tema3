@@ -23,7 +23,7 @@ public class CampoTextoBoton extends Application {
     @Override
     public void start(Stage primaryStage) {
         FXMLCampoTextoBotonController campoTextoBoton = new FXMLCampoTextoBotonController();
-        campoTextoBoton.setText("Hello! Ejercicio Campo Texto Boton");
+        campoTextoBoton.setText("Campo Texto Boton Exercise");
         
         primaryStage.setScene(new Scene(campoTextoBoton));
         primaryStage.setTitle("Campo Texto Boton");
