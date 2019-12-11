@@ -34,16 +34,5 @@ public class UsoTemporizador extends Application
         stage.setScene(scene);
         stage.show();
         
-        temp.getNumero().textProperty().addListener(new ChangeListener<String>()
-        {
-            @Override
-            public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) 
-            {
-                if(newValue.equals("0"))
-                {
-                    
-                }
-            }
-        });
     } 
 }
